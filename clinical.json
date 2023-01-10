@@ -1,0 +1,45 @@
+[
+
+    {
+        "id": "01",
+        "Name": "Divya",
+        "Age": "18",
+        "Department": "Neurology",
+        "Years_experience": "2",
+        "Specialization": "Paediatric",
+        "Salary": "50000"
+
+
+    },
+
+    {
+        "id": "02",
+        "Name": "Aniya",
+        "Age": "30",
+        "Department": "Ent",
+        "Years_experience": "9",
+        "Specialization": "adult",
+        "Salary": "40000"
+    },
+
+    {
+        "id": "03",
+        "Name": "Simran ",
+        "Age": "27",
+        "Department": "Neurology",
+        "Years_experience": "8",
+        "Specialization": "Paediatric",
+        "Salary": "50000"
+    },
+
+    {
+        "id": "04",
+        "Name": "Rastogi",
+        "Age": "35",
+        "Department": "Cardiology",
+        "Years_experience": "15",
+        "Specialization": "adult",
+        "Salary": "300000"
+    }
+
+]

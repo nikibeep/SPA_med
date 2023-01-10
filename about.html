@@ -1,0 +1,29 @@
+<div>
+    <h1 style="height: 1rem;background-color: blue;"></h1>
+    <div class="container-fluid px-5 py-3">
+        <table class="table table-borderless table-hover container-fluid">
+            <thead>
+                <tr>
+                    <th><b>ID</b></th>
+                    <th><b>Name</b></th>
+                    <th><b>Age</b></th>
+                    <th><b>Department</b></th>
+                    <th><b>Years_experience</b></th>
+                    <th><b>Specialization</b></th>
+                    <th><b>Total Salary</b></th>
+                </tr>
+            </thead>
+            <tbody ng-repeat="emp in employees">
+                <tr>
+                    <td>{{emp.id}}</td>
+                    <td>{{emp.Name|lowercase}}</td>
+                    <td>{{emp.Age|lowercase}}</td>
+                    <td>{{emp.Department|lowercase}}</td>
+                    <td>{{emp.Years_experience|lowercase}}</td>
+                    <td>{{emp.Specialization|uppercase}}</td>
+                    <td>{{emp.Salary}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
