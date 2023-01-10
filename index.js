@@ -28,7 +28,7 @@ abc.controller("abcCtrl", ($rootScope, $http) => {
 })
 
 abc.controller("homeCtrl", function($scope, $rootScope) {
-    $rootScope.var = "Medsphere"
+    $rootScope.var = "Medi Blog"
     $scope.message = ""
 })
 abc.controller("aboutCtrl", function($scope, $rootScope, $http) {
